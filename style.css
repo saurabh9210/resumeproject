@@ -81,10 +81,12 @@ body{
 
 .horizontal-list li{
     display: inline-block;
-    margin: 0px 8px 8px 0px;
+    margin: 8px 8px 8px 0px;
 }
 
 .horizontal-list li a{
+    font-weight: bold ;
+    font-size: 20px;
     color:white;
     text-decoration: none;
 }
@@ -130,34 +132,33 @@ body{
 
 
 section{
-    /* width: 100%; */
-    /* height:75vh; */
-    display: flex;
+    display:flex;
     flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
+    align-items:center;
+    padding-bottom:20px;
+    margin:1px 2px;
 }
-
 section:nth-child(2n){
-    background-color:grey;
+    background-color:#9e9b9b29;
+    transition: 1.7s;
+    
 }
-
-section:nth-child(2n + 1){
+section:nth-child(2n+1){
     background-color: white;
+    transition: 1.7s;
 }
-
 .section-heading{
     width: auto;
-    padding: 20px 10px 10px;
-    font-weight: 400;
+    padding:20px 10px 10px;
+    margin:10px auto;
+   /* font-weight: 400;*/
 }
-
 .section-heading span{
     font-size: 40px;
     color:#2857a4;
     display:inline-block;
     padding-top: 10px;
-    margin-right: 0.5rem;
+    margin-right:0.5 rem;
 }
 
 /* section about */
@@ -197,36 +198,42 @@ section:nth-child(2n + 1){
 
 /* skills section */
 
-.skills-display{
-    width: 70%;
-    display: flex;
-    padding: 10px;
-    margin-bottom: 30%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.mb75px {
+    margin-bottom: 75px;
 }
 
+   .skills-display{
+       width:80%;
+       padding:10px;
+    margin-bottom: 30px;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: space-evenly;
+   }
 .skill-progress{
-    width: 11rem;
-    height: 2.2rem;
-    background-color: rgb(207, 175, 175);
+    width:8rem;
+    height: 1.7rem;
+    background-color: rgb(207, 212, 130);
     border-radius: 1rem;
     box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
     margin: 25px;
     overflow: hidden;
 }
 
-.skill-progress > div{
-    border-radius: 20px 0px 0px 20px;
-    box-shadow: 1px 1px 5px 2px #989882;
+.skill-progress>div{/*direct child*/
+border-radius:20px 0px 0px 20px;
+ box-shadow: 1px 1px 5px 2px #989882;
+}
+.skill-name span{
+    color:white;
+   
+    font-size:1rem;
+    margin-left: 10px;
+   
+    vertical-align: middle;
+    font-weight: 600;
 }
 
-.skill-name span{
-    color: white;
-    font-size: 1.5rem;
-    margin-left: 20px;
-    vertical-align: middle;
-}
 
 /* Work experience */
 
