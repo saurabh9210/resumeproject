@@ -195,6 +195,11 @@ section:nth-child(2n+1){
     margin: auto;
 }
 
+.text-highlight{
+    color:blue;
+    font-weight: 600; 
+ }
+
 
 /* skills section */
 
@@ -337,6 +342,13 @@ border-radius:20px 0px 0px 20px;
 
 .text-align-justify {
     text-align: justify;
+}
+
+.one{
+  
+  
+    font-weight: 700 ;
+    font-size: 50px;
 }
 
 /* portfolio section */
