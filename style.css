@@ -619,7 +619,7 @@ button:focus {
         left: -9.3% !important;
     }
 
-    #timeline-divider {
+    .timeline-divider {
         top: 10%;
         left: 3.1%;
     }
